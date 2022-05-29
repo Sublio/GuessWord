@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C24E585284316090050B885 /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4C24E583284316090050B885 /* level1.txt */; };
+		4C24E586284316090050B885 /* level2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4C24E584284316090050B885 /* level2.txt */; };
 		4CDFD2602831C39F005CF925 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDFD25F2831C39F005CF925 /* AppDelegate.swift */; };
 		4CDFD2622831C39F005CF925 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDFD2612831C39F005CF925 /* SceneDelegate.swift */; };
 		4CDFD2642831C39F005CF925 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDFD2632831C39F005CF925 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C24E583284316090050B885 /* level1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level1.txt; sourceTree = "<group>"; };
+		4C24E584284316090050B885 /* level2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level2.txt; sourceTree = "<group>"; };
 		4CDFD25C2831C39F005CF925 /* GuessWord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessWord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CDFD25F2831C39F005CF925 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CDFD2612831C39F005CF925 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +66,8 @@
 				4CDFD2652831C39F005CF925 /* Main.storyboard */,
 				4CDFD2682831C3A2005CF925 /* Assets.xcassets */,
 				4CDFD26A2831C3A2005CF925 /* LaunchScreen.storyboard */,
+				4C24E583284316090050B885 /* level1.txt */,
+				4C24E584284316090050B885 /* level2.txt */,
 				4CDFD26D2831C3A2005CF925 /* Info.plist */,
 			);
 			path = GuessWord;
@@ -125,7 +131,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C24E586284316090050B885 /* level2.txt in Resources */,
 				4CDFD26C2831C3A2005CF925 /* LaunchScreen.storyboard in Resources */,
+				4C24E585284316090050B885 /* level1.txt in Resources */,
 				4CDFD2692831C3A2005CF925 /* Assets.xcassets in Resources */,
 				4CDFD2672831C39F005CF925 /* Main.storyboard in Resources */,
 			);

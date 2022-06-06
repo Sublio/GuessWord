@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     var solutions = [String]()
 
     var score = 0 {
-        didSet{
+        didSet {
             scoreLabel.text = "Score: \(score)"
         }
     }
@@ -109,6 +109,8 @@ class ViewController: UIViewController {
                 let letterButton = UIButton(type: .system)
                 letterButton.titleLabel?.font = UIFont.systemFont(ofSize: 36)
                 letterButton.setTitle("WWW", for: .normal)
+                letterButton.layer.borderWidth = CGFloat(0.5)
+                letterButton.layer.borderColor = UIColor.black.cgColor
                 letterButton.addTarget(self, action: #selector(letterTapped), for: .touchUpInside)
                 let frame = CGRect(x: column * width, y: row*height, width: width, height: height)
                 letterButton.frame = frame

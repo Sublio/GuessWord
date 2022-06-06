@@ -148,6 +148,14 @@ class ViewController: UIViewController {
                 ac.addAction(UIAlertAction(title: "Well done", style: .default, handler: levelUp))
                 present(ac, animated: true)
             }
+        } else {
+            let ac = UIAlertController(title: "Wrong answer", message: "Your word is wrong", preferredStyle: .alert)
+            ac.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
+            present(ac, animated: true)
+            // Deduct current score by 1 if not score is not 0
+            if score > 0 {
+                score -= 1
+            }
         }
     }
 
@@ -203,5 +211,4 @@ class ViewController: UIViewController {
             }
         }
     }
-
 }
